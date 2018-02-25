@@ -1,0 +1,7 @@
+stock_formula.request:
+  path: '/stock-formula'
+  defaults:
+    _controller: '\Drupal\stock_formula\Controller\StockFormulaController::performRequest'
+    _title: 'Stock Formula Response'
+  requirements:
+    _permission: 'access content'
